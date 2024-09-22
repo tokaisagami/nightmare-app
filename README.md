@@ -43,3 +43,6 @@ MVPリリース時
 
 ■ 機能の実装方針予定  
 AI実装を実現するため、「ChatGPT API」を導入することを検討している。
+
+### 画面遷移図  
+Figma：https://www.figma.com/design/qHvHitUf4rFl4CmhCdOwBV/Nigthmare?node-id=0-1&t=t4BGFFaDuiKO6wS0-1  
