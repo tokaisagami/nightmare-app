@@ -46,3 +46,6 @@ AI実装を実現するため、「ChatGPT API」を導入することを検討�
 
 ### 画面遷移図  
 Figma：https://www.figma.com/design/qHvHitUf4rFl4CmhCdOwBV/Nigthmare?node-id=0-1&t=t4BGFFaDuiKO6wS0-1  
+
+### ER図  
+draw.io：https://drive.google.com/file/d/1wDsllV8_UTm5XuKgTc5IrvRKsSzWKKbh/view?usp=sharing
