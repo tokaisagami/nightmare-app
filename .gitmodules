@@ -1,3 +1,6 @@
 [submodule "nightmare-app-frontend"]
 	path = nightmare-app-frontend
 	url = git@github.com:tokaisagami/nightmare-app-frontend.git
+[submodule "nightmare-app-backend"]
+	path = nightmare-app-backend
+	url = git@github.com:tokaisagami/nightmare-app-backend.git
