@@ -4,8 +4,10 @@ services:
   frontend:
     build:
       context: ./nightmare-app-frontend
+      dockerfile: Dockerfile
     ports:
       - "3000:3000"
+    command: npm start
     environment:
       - NODE_ENV=development
     volumes:
