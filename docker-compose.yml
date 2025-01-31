@@ -1,33 +1,33 @@
 version: '3.8'
 
 services:
-  # frontend:
-  #   build:
-  #     context: ./nightmare-app-frontend
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "5173:5173"
-  #   command: npm run dev -- --host
-  #   environment:
-  #     - NODE_ENV=development
-  #   volumes:
-  #     - ./nightmare-app-frontend:/app
-  #   networks:
-  #     - app-network
-
   frontend:
     build:
-      context: ./nightmare-app-next
+      context: ./nightmare-app-frontend
       dockerfile: Dockerfile
     ports:
-      - "3000:3000"
-    command: npm run dev
+      - "5173:5173"
+    command: npm run dev -- --host
     environment:
       - NODE_ENV=development
     volumes:
-      - ./nightmare-app-next:/app
+      - ./nightmare-app-frontend:/app
     networks:
       - app-network
+
+  # frontend:
+  #   build:
+  #     context: ./nightmare-app-next
+  #     dockerfile: Dockerfile
+  #   ports:
+  #     - "3000:3000"
+  #   command: npm run dev
+  #   environment:
+  #     - NODE_ENV=development
+  #   volumes:
+  #     - ./nightmare-app-next:/app
+  #   networks:
+  #     - app-network
 
   backend:
     build:
